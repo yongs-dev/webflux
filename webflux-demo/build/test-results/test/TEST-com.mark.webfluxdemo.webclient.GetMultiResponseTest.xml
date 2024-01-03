@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mark.webfluxdemo.webclient.GetMultiResponseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-03T06:02:48" hostname="Yongui-MacBookPro.local" time="10.696">
+  <properties/>
+  <testcase name="fluxTest()" classname="com.mark.webfluxdemo.webclient.GetMultiResponseTest" time="10.696"/>
+  <system-out><![CDATA[15:02:47.935 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mark.webfluxdemo.webclient.GetMultiResponseTest]: GetMultiResponseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:02:47.995 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.mark.webfluxdemo.WebfluxDemoApplication for test class com.mark.webfluxdemo.webclient.GetMultiResponseTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2024-01-03T15:02:48.209+09:00  INFO 22963 --- [    Test worker] c.m.w.webclient.GetMultiResponseTest     : Starting GetMultiResponseTest using Java 21.0.1 with PID 22963 (started by yong in /Users/yong/project/study/webflux/webflux-demo)
+2024-01-03T15:02:48.210+09:00  INFO 22963 --- [    Test worker] c.m.w.webclient.GetMultiResponseTest     : No active profile set, falling back to 1 default profile: "default"
+2024-01-03T15:02:48.980+09:00  INFO 22963 --- [    Test worker] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8088
+2024-01-03T15:02:48.991+09:00  INFO 22963 --- [    Test worker] c.m.w.webclient.GetMultiResponseTest     : Started GetMultiResponseTest in 0.929 seconds (process running for 1.558)
+2024-01-03T15:02:49.521+09:00 ERROR 22963 --- [    Test worker] i.n.r.d.DnsServerAddressStreamProviders  : Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+reactive-math-service processing : 1
+Response(output=5, date=Wed Jan 03 15:02:50 KST 2024)
+reactive-math-service processing : 2
+Response(output=10, date=Wed Jan 03 15:02:51 KST 2024)
+reactive-math-service processing : 3
+Response(output=15, date=Wed Jan 03 15:02:52 KST 2024)
+reactive-math-service processing : 4
+Response(output=20, date=Wed Jan 03 15:02:53 KST 2024)
+reactive-math-service processing : 5
+Response(output=25, date=Wed Jan 03 15:02:54 KST 2024)
+reactive-math-service processing : 6
+Response(output=30, date=Wed Jan 03 15:02:55 KST 2024)
+reactive-math-service processing : 7
+Response(output=35, date=Wed Jan 03 15:02:56 KST 2024)
+reactive-math-service processing : 8
+Response(output=40, date=Wed Jan 03 15:02:57 KST 2024)
+reactive-math-service processing : 9
+Response(output=45, date=Wed Jan 03 15:02:58 KST 2024)
+reactive-math-service processing : 10
+Response(output=50, date=Wed Jan 03 15:02:59 KST 2024)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/yong/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.10/90ed94ac044ea8953b224304c762316e91fd6b31/byte-buddy-agent-1.14.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
