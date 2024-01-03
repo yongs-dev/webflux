@@ -1,0 +1,4 @@
+/.gradle/
+/.idea/
+/product-service/build/
+/webflux-demo/build/
