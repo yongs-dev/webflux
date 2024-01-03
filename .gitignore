@@ -2,3 +2,4 @@
 /.idea/
 /product-service/build/
 /webflux-demo/build/
+/product-service/mongo/

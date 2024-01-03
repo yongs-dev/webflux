@@ -7,7 +7,6 @@ import lombok.ToString;
 import java.util.Date;
 
 @Data
-@ToString
 @NoArgsConstructor
 public class Response {
 
