@@ -1,5 +1,8 @@
+/build/
 /.gradle/
 /.idea/
 /product-service/build/
 /webflux-demo/build/
 /product-service/mongo/
+/user-service/build/
+/user-service/docker-volume/

@@ -1,3 +1,4 @@
 rootProject.name = 'webflux'
 include 'webflux-demo'
 include 'product-service'
+include 'user-service'
