@@ -10,6 +10,12 @@ plugins {
     id 'java'
 }
 
+allprojects {
+    bootJar {
+        enabled = false
+    }
+}
+
 subprojects {
     apply plugin: 'java'
     apply plugin: 'org.springframework.boot'
@@ -53,9 +59,3 @@ subprojects {
         useJUnitPlatform()
     }
 }
-
-//project(':webflux-demo') {
-//    dependencies {
-//        implementation project(':product-service')
-//    }
-//}

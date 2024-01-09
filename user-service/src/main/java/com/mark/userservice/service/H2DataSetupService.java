@@ -13,7 +13,7 @@ import java.nio.charset.StandardCharsets;
 // H2 DB 사용시 빈 등록
 @Service
 @RequiredArgsConstructor
-public class DataSetupService implements CommandLineRunner {
+public class H2DataSetupService implements CommandLineRunner {
 
     @Value("classpath:init/init.sql")
     private Resource initSql;

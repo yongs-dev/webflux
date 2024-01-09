@@ -6,3 +6,4 @@
 /product-service/mongo/
 /user-service/build/
 /user-service/docker-volume/
+/order-service/build/

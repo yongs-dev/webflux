@@ -1,3 +1,12 @@
+bootJar {
+    enabled = true
+}
+
+jar {
+    enabled = false
+}
+
+
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-r2dbc'
     runtimeOnly 'com.h2database:h2'

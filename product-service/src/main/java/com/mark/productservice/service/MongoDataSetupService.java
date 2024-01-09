@@ -9,7 +9,7 @@ import reactor.core.publisher.Mono;
 
 @Service
 @RequiredArgsConstructor
-public class DataSetupService implements CommandLineRunner {
+public class MongoDataSetupService implements CommandLineRunner {
 
     private final ProductService service;
 
