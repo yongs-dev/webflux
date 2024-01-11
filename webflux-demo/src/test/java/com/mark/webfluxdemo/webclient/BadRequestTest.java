@@ -1,6 +1,5 @@
 package com.mark.webfluxdemo.webclient;
 
-import com.mark.webfluxdemo.BaseTest;
 import com.mark.webfluxdemo.dto.Response;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

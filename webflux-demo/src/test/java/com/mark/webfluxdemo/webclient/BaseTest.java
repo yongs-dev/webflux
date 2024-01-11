@@ -1,4 +1,4 @@
-package com.mark.webfluxdemo;
+package com.mark.webfluxdemo.webclient;
 
 import org.springframework.boot.test.context.SpringBootTest;
 

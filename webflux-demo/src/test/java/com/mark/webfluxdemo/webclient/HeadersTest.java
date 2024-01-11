@@ -1,6 +1,5 @@
 package com.mark.webfluxdemo.webclient;
 
-import com.mark.webfluxdemo.BaseTest;
 import com.mark.webfluxdemo.dto.MultiplyRequestDto;
 import com.mark.webfluxdemo.dto.Response;
 import org.junit.jupiter.api.Test;
